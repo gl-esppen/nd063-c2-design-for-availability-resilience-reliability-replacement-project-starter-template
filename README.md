@@ -187,8 +187,9 @@ You’re tasked with building a resilient static web hosting solution in AWS.  Y
 
   ![S3 public](screenshots/s3Public.png "S3 public")
 
-2. On the Properties tab, setup the bucket for Static website hosting
-    1. Enter “index.html” for both Index document and Error document
+2. On the Properties tab, setup the bucket for Static website hosting and enable the Versioning
+    1. At "Static Website Hosting" enter “index.html” for both Index document and Error document
+    2. Select the "Versioning" box and enable it
 3. On the Overview tab, upload the files from the GitHub repo (under `/s3/`)
     1. Under Manage public permissions select “Grant public read access to this object(s)”
     2. Click Upload
